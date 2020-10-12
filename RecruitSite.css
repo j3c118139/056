@@ -1,0 +1,146 @@
+.carousel-indicators {
+    text-align: right;
+    float: right;
+    right: 2% !important;
+    left: inherit;
+} */
+.carousel-control-prev{
+    top: 90%;
+    left: 45%;
+    opacity: 100%;
+}
+.carousel-control-next{
+    top: 75%;
+    right: 40%;
+    opacity: 100%;
+}
+.tategaki{
+    direction: ltr;
+    display: inline-block;
+    text-align: left;
+    -ms-writing-mode: tb-rl;
+    writing-mode: vertical-rl;
+}
+.highlight{
+    background-color: #ec9700;
+}
+
+.maps .row p{
+    -ms-writing-mode: tb-rl;
+    writing-mode: vertical-rl;
+    padding: 30px;
+}
+
+.bg-navcolor{
+    background-color: #3185da;
+}
+.text-white{
+    color: white;
+    font-family: sans-serif;
+}
+
+/*MAPS*/
+
+.box-vertikal{
+    float: center;
+    margin-top: -150px;
+    margin-bottom: -800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.strip-vertikal{
+    background-color: #ec9700;
+    }
+.text-vertikal{
+    text-align: left;
+    transform: rotate(90deg);
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+/*SPECIAL*/
+
+h1{
+    font-size: 90px;
+}
+.box-special{
+    margin-bottom: -145px;
+    position: relative;
+}
+.text-special{
+    float: right;
+    margin-top: 130px;
+    margin-bottom: -300px;
+    position: relative;
+}
+.content-special{
+   position: relative;
+   margin-top: 300px;
+   margin-bottom: -800px;
+}
+.content-image-2{
+    margin-top: 50px;
+}
+
+/*COMPANY*/
+
+.box-company{
+    margin-top: 100px;
+    margin-bottom: -210px;
+    position: relative;
+    float: right;
+}
+.text-company{
+    float: left;
+    margin-top: 180px;
+    margin-bottom: -300px;
+    position: relative;
+}
+.content-company{
+   position: relative;
+   margin-top: 300px;
+   margin-bottom: -800px;
+}
+.content-image-2{
+    margin-top: 50px;
+}
+
+/*WORK*/
+
+.box-work{
+    margin-top: auto;
+    margin-bottom: -210px;
+    position: relative;
+    float: left;
+    padding-left: 60px;
+}
+.text-work{
+    float: right;
+    margin-top: 150px;
+    margin-bottom: -300px;
+    position: relative;
+}
+
+/*WORK*/
+
+.box-recruit{
+    margin-top: -110px;
+    margin-bottom: -210px;
+    position: relative;
+    float: left;
+    padding-left: 60px;
+}
+.text-recruit{
+    float: right;
+    margin-top: 30px;
+    margin-bottom: -300px;
+    position: relative;
+}
+
+/*FOOTER*/
+.box-footer-1{
+    background-color: #2065c5;
+}
+.box-footer-2{
+    background-color: #1f5bad;
+}
