@@ -1,3 +1,12 @@
+/*HEADER*/
+
+.jumbotron{
+    background-image: url(Banner/Slider2.png);
+    background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+}
 .carousel-indicators {
     text-align: right;
     float: right;
@@ -14,6 +23,7 @@
     right: 40%;
     opacity: 100%;
 }
+/*MAPS*/
 .tategaki{
     direction: ltr;
     display: inline-block;
@@ -40,13 +50,15 @@
 }
 
 /*MAPS*/
-
+.bgimg-maps {
+    background-image: url('Tategaki/maps.png');
+}
 .box-vertikal{
     float: center;
-    margin-top: -150px;
-    margin-bottom: -800px;
     margin-left: auto;
     margin-right: auto;
+    position: relative;
+    flex-wrap: wrap;
 }
 .strip-vertikal{
     background-color: #ec9700;
@@ -63,20 +75,29 @@
 h1{
     font-size: 90px;
 }
+@media screen and (min-width: 601px) {
+  div.example {
+    font-size: 90px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  div.example {
+    font-size: 50px;
+  }
+}
+.image-special{
+    background-image: url('SpecialContent/SC_Pic1.png');
+}
 .box-special{
-    margin-bottom: -145px;
+    height: auto;
     position: relative;
 }
 .text-special{
     float: right;
-    margin-top: 130px;
-    margin-bottom: -300px;
-    position: relative;
 }
 .content-special{
    position: relative;
-   margin-top: 300px;
-   margin-bottom: -800px;
 }
 .content-image-2{
     margin-top: 50px;
@@ -84,16 +105,16 @@ h1{
 
 /*COMPANY*/
 
+.image-company{
+    background-image: url('Company/C1.png');
+}
 .box-company{
-    margin-top: 100px;
-    margin-bottom: -210px;
-    position: relative;
+    margin-top: 100px;    
     float: right;
+    text-align: right;
 }
 .text-company{
     float: left;
-    margin-top: 180px;
-    margin-bottom: -300px;
     position: relative;
 }
 .content-company{
@@ -107,9 +128,12 @@ h1{
 
 /*WORK*/
 
+.image-work{
+    background-image: url('Work/W1.png');
+}
+
 .box-work{
     margin-top: auto;
-    margin-bottom: -210px;
     position: relative;
     float: left;
     padding-left: 60px;
@@ -117,11 +141,13 @@ h1{
 .text-work{
     float: right;
     margin-top: 150px;
-    margin-bottom: -300px;
     position: relative;
 }
 
-/*WORK*/
+/*recruit*/
+.image-recruit{
+    background-image: url('Recruit/Recruit.png');
+}
 
 .box-recruit{
     margin-top: -110px;
@@ -135,6 +161,43 @@ h1{
     margin-top: 30px;
     margin-bottom: -300px;
     position: relative;
+}
+.button {
+  background-color: #fff;
+  border: none;
+  color: black;
+  padding: 15px 130px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.button2 {
+  background-color: #fff;
+  border: none;
+  color: black;
+  padding: 15px 130px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button3 {
+  background-color: #fff;
+  border: none;
+  color: black;
+  padding: 15px 130px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
 }
 
 /*FOOTER*/
