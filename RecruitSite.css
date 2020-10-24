@@ -1,3 +1,6 @@
+div{
+  overflow: hidden;
+}
 /*HEADER*/
 
 .jumbotron{
@@ -95,6 +98,7 @@ h1{
 }
 .text-special{
     float: right;
+    margin-left: 50%;
 }
 .content-special{
    position: relative;
@@ -109,9 +113,10 @@ h1{
     background-image: url('Company/C1.png');
 }
 .box-company{
-    margin-top: 100px;    
+    margin-top: 80px;    
     float: right;
     text-align: right;
+    margin-left: 60%;
 }
 .text-company{
     float: left;
@@ -133,10 +138,10 @@ h1{
 }
 
 .box-work{
-    margin-top: auto;
+    margin-top: 20px;
     position: relative;
     float: left;
-    padding-left: 60px;
+    padding-left: 150px;
 }
 .text-work{
     float: right;
@@ -152,52 +157,67 @@ h1{
 .box-recruit{
     margin-top: -110px;
     margin-bottom: -210px;
-    position: relative;
+    position: absolute;
     float: left;
     padding-left: 60px;
 }
 .text-recruit{
+    margin-left: 40%;
     float: right;
     margin-top: 30px;
     margin-bottom: -300px;
     position: relative;
 }
-.button {
+.button1 {
   background-color: #fff;
   border: none;
   color: black;
-  padding: 15px 130px;
-  text-align: center;
+  height: 200px;
+  padding: 15px;
+  text-align: left;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
+  margin-top: -100px;
+  margin-left: -2px;
 }
 .button2 {
   background-color: #fff;
   border: none;
   color: black;
-  padding: 15px 130px;
+  width: 180px; 
+  padding: 15px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 12px;
   margin: 4px 2px;
   cursor: pointer;
+  position: relative;
+  margin-top: -100px;
+  margin-left: -2px;
 }
 
 .button3 {
   background-color: #fff;
   border: none;
   color: black;
-  padding: 15px 130px;
-  text-align: center;
+  width: 450px; 
+  padding: 15px;
+  text-align: left;
   text-decoration: none;
   display: inline-block;
-  font-size: 20px;
+  font-size: 18px;
   margin: 4px 2px;
   cursor: pointer;
+}
+.rb{
+  float: right;
+}
+.lb{
+  float: left;
 }
 
 /*FOOTER*/
